@@ -1,0 +1,32 @@
+DataBase Logical - HealthServer
+
+tabela Usuario
+idUsuario 
+nome
+email
+telefone
+senha
+fkEmpresa
+
+tabela Empresas
+idEmpresa
+nomeEmpresa
+cnpj
+cep
+
+tabela servidor 
+idServidor
+modeloServidor
+fkRegistro
+fkEmpresa
+
+tabela registro 
+idRegistro
+fkServidor
+registroMemory
+registroCPU
+registroRAM
+
+
+
+
