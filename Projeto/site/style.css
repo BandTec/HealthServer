@@ -61,8 +61,6 @@ body {
     color: #5E17EB;
 }
 
-
-
 /*fim da navegação*/
 
 /* PRIMEIRA TELA DO INDEX(INICIAL) */
@@ -93,3 +91,48 @@ body {
 }
 
 
+/* PRIMEIRA TELA DO SOBRE */
+.showcase_sobre {
+    width: 100%;
+    height: 632px;
+    color: yellow;
+    text-align: center;
+}
+
+.showcase_sobre .container {
+    padding-top: 320px;
+    margin-left: 100px;
+}
+
+/* SEGUNDA TELA DO SOBRE */
+.showcase_sobre_2 {
+    width: 100%;
+    height: 632px;
+    color: yellow;
+    text-align: center;
+}
+
+.showcase_sobre_2 .container {
+    padding-top: 320px;
+    margin-left: 100px;
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #5E17EB;
+    text-align: center;
+    margin-top: 550px;
+    height: 100px;
+}
+
+.footer h4 {
+    color: yellow;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 40px;
+}
