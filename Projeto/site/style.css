@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,6 +32,9 @@ body {
     font-family: 'Geo', sans-serif;
     font-size: 24px;
     background: linear-gradient(180deg, #000000 0%, #160041 0.01%, #000000 100%, #000000 100%);
+}
+a{
+    text-decoration: none;
 }
 ol, ul {
 	list-style: none;
@@ -76,6 +82,16 @@ header > div:last-child {
 header > div > img{
     width: 50px;
 }
+header > div > a {
+        color: white;
+        font-size: 150%;
+        text-transform: uppercase;       
+
+}
+header > div > a:hover{
+    font-weight: bold;
+    color: yellow;
+}
 header > div > a + a{
     margin-left: 57px;
 }
@@ -122,7 +138,6 @@ h2{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
-
   }
   
   .card1:hover {
@@ -157,4 +172,3 @@ h2{
     height: 158px;
     border-radius: 84px;
 }
-
