@@ -146,9 +146,11 @@ h2{
   
   .card1 > img {
       width: 250px;
+      
   }
   .container {
     padding: 2px 16px;
+    
   }
 .contato > h2{
     font-size: 50px;
@@ -166,12 +168,35 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     height: 220px;
+    margin-bottom: 50px;
 }
 .fotoscontato > .card1 > img {
     width: 169px;
     height: 158px;
     border-radius: 84px;
 }
+
+.icons {
+    margin-bottom:50px;
+}
+.icons img {
+    height:40px;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+    background-color: white;
+    border-color: thistle;
+    border-radius: 50%;
+}
+
+.icons img:hover {
+    cursor: pointer;
+}
+
+.container-contact {
+    padding: 2px 16px;
+    margin-bottom: 50px;
+}
+
 footer{
     text-align: center;
     margin-bottom: 50px;
