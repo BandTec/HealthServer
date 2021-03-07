@@ -158,7 +158,7 @@ h2{
     display: flex;
     flex-direction: column;
     width:100%;
-    height: auto;
+    height: 600px;
 }
 
 .fotoscontato{
@@ -171,4 +171,9 @@ h2{
     width: 169px;
     height: 158px;
     border-radius: 84px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
